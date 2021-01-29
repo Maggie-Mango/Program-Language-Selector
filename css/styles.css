@@ -1,0 +1,11 @@
+.card {
+  box-shadow: 0 4px 8px 0;
+}
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  float: center;
+}
