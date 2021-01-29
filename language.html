@@ -8,45 +8,65 @@
   <title>Programming Language Selector</title>
 </head>
 <body>
-<div class="container mt-5">
-  <div class="row justify-content-md-center">
-    <div class="col-md-6">
-    <div class="card">
-      <div class="card-body card-body-cascade text-center">
-        <h4 class="font-weight-bold text-center mt-3">Find Your Programming Language</h4>
-        <hr>
-        <div class="survey-head text-center">
-          <p>filler text, maybe put an image in?</p>
-        </div>
-        <hr>
-        <p class="text-center">What interests you the most?</p>
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="radio-119" value="option1" checked>
-          <label class="form-check-label" for="radio-119">Designing Websites</label>
-        </div>
+  <div class="container mt-5">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
+      <div class="card">
+        <div class="card-body card-body-cascade text-center">
+          <h4 class="font-weight-bold text-center mt-3">Find Your Programming Language</h4>
+          <hr>
 
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="radio-119" value="option1" checked>
-          <label class="form-check-label" for="radio-119">Designing Websites</label>
-        </div>
+          <div class="survey-head text-center">
+          <ul id="tabs" class="nav nav-tabs">
+            <li class="nav-item"><a href="" data-target="#personalInfo" data-toggle="tab" class="nav-link small text-uppercase active">Personal Info</a></li>
+            <li class="nav-item"><a href="" data-target="#section1" data-toggle="tab" class="nav-link small text-uppercase">Section 1</a></li>
+            <li class="nav-item"><a href="" data-target="#section2" data-toggle="tab" class="nav-link small text-uppercase">Section 2</a></li>
+            <li class="nav-item"><a href="" data-target="#results" data-toggle="tab" class="nav-link small text-uppercase">Results</a></li>
+          </ul>
+          </div>
+          <hr>
 
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="radio-119" value="option1" checked>
-          <label class="form-check-label" for="radio-119">Designing Websites</label>
-        </div>
-
-        <div class="form-check mb-4">
-          <input class="form-check-input" name="group1" type="radio" id="radio-119" value="option1" checked>
-          <label class="form-check-label" for="radio-119">Designing Websites</label>
-        </div>
-        <hr>
-        <div class="survey-footer clearfix">
-          <a type="button" class="btn btn-primary float-right">Next</a>
+          <div id="tabsContent" class="tab-content">
+            <div id="personalInfo" class="tab-pane fade active show">
+              <p class="text-center">Personal Info</p>
+          <div class="form-group">
+            <label for="firstName">Q1. What is your name?</label>
+            <input type="text" class="form-control" id="firstName">
+          </div>
+          <div class="form-group">
+            <label for="email">Q2. What is your email address?</label>
+            <input type="text" class="form-control" id="email">
+          </div>
+          <hr>
+            <a class="btn btn-primary float-right btn-Next">Next</a>
+          </div>
         </div>
       </div>
     </div>
+
+  <div class="container mt-5">
+    <form id="formTwo">
+      <div class="row justify-content-md-center">
+        <div class="col-md-6">
+        <div class="card">
+          <div class="card-body card-body-cascade text-center">
+            <h4 class="font-weight-bold text-center mt-3">Find Your Programming Language</h4>
+            <hr>
+            <div class="survey-head text-center">
+              <p>filler text, maybe put an image in?</p>
+            </div>
+            <hr>
+            <p class="text-center">Q2 What interests you the most?</p>
+            <p>
+            <hr>
+            <div class="survey-footer clearfix">
+              <a type="button" class="btn btn-primary float-right">Next</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
-  </div>
-</div>
+
 </body>
 </html>
