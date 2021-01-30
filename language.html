@@ -9,64 +9,121 @@
 </head>
 <body>
   <div class="container mt-5">
-    <div class="row justify-content-md-center">
-      <div class="col-md-6">
-      <div class="card">
-        <div class="card-body card-body-cascade text-center">
-          <h4 class="font-weight-bold text-center mt-3">Find Your Programming Language</h4>
-          <hr>
-
-          <div class="survey-head text-center">
-          <ul id="tabs" class="nav nav-tabs">
-            <li class="nav-item"><a href="" data-target="#personalInfo" data-toggle="tab" class="nav-link small text-uppercase active">Personal Info</a></li>
-            <li class="nav-item"><a href="" data-target="#section1" data-toggle="tab" class="nav-link small text-uppercase">Section 1</a></li>
-            <li class="nav-item"><a href="" data-target="#section2" data-toggle="tab" class="nav-link small text-uppercase">Section 2</a></li>
-            <li class="nav-item"><a href="" data-target="#results" data-toggle="tab" class="nav-link small text-uppercase">Results</a></li>
-          </ul>
-          </div>
-          <hr>
-
-          <div id="tabsContent" class="tab-content">
-            <div id="personalInfo" class="tab-pane fade active show">
-              <p class="text-center">Personal Info</p>
-          <div class="form-group">
-            <label for="firstName">Q1. What is your name?</label>
-            <input type="text" class="form-control" id="firstName">
-          </div>
-          <div class="form-group">
-            <label for="email">Q2. What is your email address?</label>
-            <input type="text" class="form-control" id="email">
-          </div>
-          <hr>
-            <a class="btn btn-primary float-right btn-Next">Next</a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-  <div class="container mt-5">
-    <form id="formTwo">
+    <form id="formOne">
       <div class="row justify-content-md-center">
         <div class="col-md-6">
-        <div class="card">
-          <div class="card-body card-body-cascade text-center">
+          <div class="card card-body card-body-cascade text-center">
             <h4 class="font-weight-bold text-center mt-3">Find Your Programming Language</h4>
             <hr>
             <div class="survey-head text-center">
               <p>filler text, maybe put an image in?</p>
             </div>
             <hr>
-            <p class="text-center">Q2 What interests you the most?</p>
-            <p>
+            <div class="form-group">
+              <label for="Q1"><b>Q1.</b> What is your name?</label>
+              <input id="Q1" class="form-control">
+            </div>
+
+            <div class="form-group">
+              <label for="Q2"><b>Q2.</b> What is your email address?</label>
+              <input id="Q2" class="form-control">
+            </div>
             <hr>
             <div class="survey-footer clearfix">
-              <a type="button" class="btn btn-primary float-right">Next</a>
+              <a type="button" class="btn btn-primary float-right btn1">Next</a>
             </div>
           </div>
         </div>
       </div>
     </form>
+  
+
+
+<form id="formTwo">
+  <div class="container mt-5">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
+        <div class="card card-body card-body-cascade">
+          <h4 class="font-weight-bold text-center mt-3"></h4>
+          <hr>
+          <div class="survey-head text-center">
+            <p>filler text, maybe put an image in?</p>
+          </div>
+          <hr>
+          <p class="text-center"><b>Q3.</b> What appeals to you most?</p>
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Making data visualizations</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Designing websites</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Machine learning</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Building back-end infrastructure</label>
+          </div>
+          <hr>
+          <div class="survey-footer clearfix">
+          <a type="submit" class="btn btn-primary float-right">Next</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
+</div>
+</form>
+
+<form id="formThree">
+  <div class="container mt-5">
+    <div class="row justify-content-md-center">
+      <div class="col-md-6">
+        <div class="card card-body card-body-cascade">
+          <h4 class="font-weight-bold text-center mt-3"></h4>
+          <hr>
+          <div class="survey-head text-center">
+            <p>filler text, maybe put an image in?</p>
+          </div>
+          <hr>
+          <p class="text-center"><b>Q3.</b> What appeals to you most?</p>
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Making data visualizations</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Designing websites</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Machine learning</label>
+          </div>
+
+          <div class="form-check mb-4">
+            <input class="form-check-input" name="group1" type="radio" id="radio-q3" value="option1" checked>
+            <label class="form-check-label" for="radio-q3">Building back-end infrastructure</label>
+          </div>
+          <hr>
+          <div class="survey-footer clearfix">
+          <a type="submit" class="btn btn-primary float-right">Next</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</form>
+
+
 
 </body>
 </html>
