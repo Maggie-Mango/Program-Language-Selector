@@ -3,6 +3,16 @@
 }
 
 
-button .btn1 {
+button .b1 {
   float: left;
+}
+
+h4 {
+  font-weight: bold;
+  text-align: center;
+  margin-top: 3px;
+}
+
+.quiz-head {
+  text-align: center;
 }

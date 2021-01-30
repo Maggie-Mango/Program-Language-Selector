@@ -1,12 +1,13 @@
+// Business logic
+
+
+
+// User interface
 $(document).ready(function(){
-  $('button.btn').on(click, function() {
-  let nextQuestion = $(this).closest('form#form').next();
-
-    if (nextQuestion.length !== 0) {
-      $('html, form#form').animate({
-          scrollTop: nextQuestion.offset().top
-      }, 1000);
-    }
+  $("#formOne").submit(function(event) {
+    event.preventDefault();
+    let qOneInput = $("input#Q1").val();
+    
+    alert(qOneInput);
   });
-  });
-
+});
