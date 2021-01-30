@@ -14,6 +14,6 @@ $(document).ready(function(){
     let qSixInput = $("#color").val();
 
     
-    alert(qSixInput);
+    
   });
 });

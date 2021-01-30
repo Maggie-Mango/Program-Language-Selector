@@ -16,3 +16,12 @@ h4 {
 .quiz-head {
   text-align: center;
 }
+
+H4.header {
+  display: none;
+}
+
+#results {
+  display: none;
+}
+
