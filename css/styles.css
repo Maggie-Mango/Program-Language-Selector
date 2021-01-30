@@ -2,3 +2,7 @@
   box-shadow: 0 4px 8px 0;
 }
 
+
+button .btn1 {
+  float: left;
+}
