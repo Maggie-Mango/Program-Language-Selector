@@ -11,8 +11,9 @@ $(document).ready(function(){
     let qThreeInput = $("#q3").val();
     let qFourInput = $("input:radio[name=group1]:checked").val();
     let qFiveInput = $("input:radio[name=group2]:checked").val();
+    let qSixInput = $("#color").val();
 
     
-    alert(qFiveInput);
+    alert(qSixInput);
   });
 });
