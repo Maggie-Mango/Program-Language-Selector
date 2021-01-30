@@ -1,4 +1,4 @@
-// Business logic
+
 
 
 // User interface
@@ -12,10 +12,17 @@ $(document).ready(function(){
     let qFiveInput = $("input:radio[name=group2]:checked").val();
     let qSixInput = $("#color").val();
     
+  
+
     if (qFourInput === 'unsure') {
       $("h4.header").show()
         $(".language").text("Ruby")
+      $(".name").text(qOneInput);
+      $(".date").text(qThreeInput);
+      $("#intro").show()       
+      $("#ruby").show()
     }
+  
 
 
   });

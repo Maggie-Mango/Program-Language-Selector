@@ -21,7 +21,29 @@ h4.header {
   display: none;
 }
 
-.results {
+
+#time {
   display: none;
 }
+
+#ruby {
+  display: none;
+}
+
+#js {
+  display: none;
+}
+
+#pythonInfra {
+  display: none;
+}
+
+#pythonData {
+  display: none;
+}
+
+#rust {
+  display: none;
+}
+
 
