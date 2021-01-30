@@ -17,7 +17,9 @@ $(document).ready(function(){
       $(".language").text("Rust");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();     
+      $("#intro").show();
+      $(".initially-showing").fadeToggle();
+      $("#initially-hidden-rust").fadeToggle();
       $("#rust").show();
       $(".email").text(qTwoInput);
 
@@ -26,7 +28,9 @@ $(document).ready(function(){
       $(".language").text("Python");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();     
+      $("#intro").show();
+      $(".initially-showing").fadeToggle();
+      $("#initially-hidden-python").fadeToggle();
       $("#pythonData").show();
 
     }  else if (qFourInput === 'designingWebsites') {
@@ -35,7 +39,8 @@ $(document).ready(function(){
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
       $("#intro").show();    
-      $("#initially-hidden-js").fadeIn();  
+      $(".initially-showing").fadeToggle();
+      $("#initially-hidden-js").fadeToggle();
       $("#js").show();
   
     }  else if ((qFourInput === 'infrastructure') && (qFiveInput !== 'vanilla')) {
@@ -43,7 +48,9 @@ $(document).ready(function(){
       $(".language").text("Python");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();       
+      $("#intro").show();
+      $(".initially-showing").fadeToggle();
+      $("#initially-hidden-python").fadeToggle();;
       $("#pythonInfra").show();
 
     }  else if (qFourInput === 'unsure') {
@@ -51,7 +58,9 @@ $(document).ready(function(){
       $(".language").text("Ruby");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();       
+      $("#intro").show();
+      $(".initially-showing").fadeToggle();
+      $("#initially-hidden-ruby").fadeToggle();
       $("#ruby").show();
 
     } else {

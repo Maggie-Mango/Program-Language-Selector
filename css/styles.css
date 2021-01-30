@@ -25,6 +25,18 @@ h4.header {
   display: none;
 }
 
+#initially-hidden-ruby {
+  display: none;
+}
+
+#initially-hidden-python {
+  display: none;
+}
+
+#initially-hidden-rust {
+  display: none;
+}
+
 #intro {
   display: none;
 }
