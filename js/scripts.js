@@ -1,7 +1,6 @@
 // Business logic
 
 
-
 // User interface
 $(document).ready(function(){
   $("#formOne").submit(function(event) {
@@ -12,8 +11,12 @@ $(document).ready(function(){
     let qFourInput = $("input:radio[name=group1]:checked").val();
     let qFiveInput = $("input:radio[name=group2]:checked").val();
     let qSixInput = $("#color").val();
+    
+    if (qFourInput === 'unsure') {
+      $("h4.header").show()
+        $(".language").text("Ruby")
+    }
 
-    
-    
+
   });
 });

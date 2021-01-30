@@ -17,11 +17,11 @@ h4 {
   text-align: center;
 }
 
-H4.header {
+h4.header {
   display: none;
 }
 
-#results {
+.results {
   display: none;
 }
 
