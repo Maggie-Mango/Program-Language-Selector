@@ -17,25 +17,28 @@ $(document).ready(function(){
       $(".language").text("Rust");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $(".email").text(qTwoOutput);
-      $("#intro").show();       
+      $("#intro").show();     
       $("#rust").show();
-    } else if (qFourInput === 'machineLearning') {
+      $(".email").text(qTwoInput);
+
+    } else if ((qFourInput === 'machineLearning') && (qFiveInput === 'strawberry')) {
       $("h4.header").show();
       $(".language").text("Python");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
       $("#intro").show();     
       $("#pythonData").show();
+
     }  else if (qFourInput === 'designingWebsites') {
       $("h4.header").show();
       $(".language").text("JavaScript");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();      
+      $("#intro").show();    
+      $("#initially-hidden-js").fadeIn();  
       $("#js").show();
   
-    }  else if (qFourInput === 'infrastructure') {
+    }  else if ((qFourInput === 'infrastructure') && (qFiveInput !== 'vanilla')) {
       $("h4.header").show();
       $(".language").text("Python");
       $(".name").text(qOneInput);
@@ -51,6 +54,8 @@ $(document).ready(function(){
       $("#intro").show();       
       $("#ruby").show();
 
+    } else {
+      alert(" ...You may need to consider your choice in milkshakes before jumping into programming....")
     }
     
 
