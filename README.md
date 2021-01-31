@@ -29,6 +29,7 @@ https://maggie-mango.github.io/Program-Language-Selector/
 ## Known Bugs
 
 * The color select function does not impact results or styling at the moment
+* You will need to refresh the page to try for a different result
 
 ## License
 
