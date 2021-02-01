@@ -13,55 +13,55 @@ $(document).ready(function(){
     //branching
     
     if (qFiveInput === 'mintChoco') {
-      $("h4.header").show();
+      $("h4.header").fadeToggle();
       $(".language").text("Rust");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();
+      $("#intro").fadeToggle();
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-rust").fadeToggle();
-      $("#rust").show();
+      $("#rust").fade.Toggle();
       $(".email").text(qTwoInput);
 
     } else if ((qFourInput === 'machineLearning') && (qFiveInput === 'strawberry')) {
-      $("h4.header").show();
+      $("h4.header").fadeToggle();
       $(".language").text("Python");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();
+      $("#intro").fadeToggle();
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-python").fadeToggle();
-      $("#pythonData").show();
+      $("#pythonData").fadeToggle();
 
     }  else if (qFourInput === 'designingWebsites') {
-      $("h4.header").show();
+      $("h4.header").fadeToggle();
       $(".language").text("JavaScript");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();    
+      $("#intro").fadeToggle();    
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-js").fadeToggle();
-      $("#js").show();
+      $("#js").fadeToggle();
   
     }  else if ((qFourInput === 'infrastructure') && (qFiveInput !== 'vanilla')) {
-      $("h4.header").show();
+      $("h4.header").fadeToggle();
       $(".language").text("Python");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();
+      $("#intro").fadeToggle();
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-python").fadeToggle();;
-      $("#pythonInfra").show();
+      $("#pythonInfra").fadeToggle();
 
     }  else if (qFourInput === 'unsure') {
-      $("h4.header").show();
+      $("h4.header").fadeToggle();
       $(".language").text("Ruby");
       $(".name").text(qOneInput);
       $(".date").text(qThreeInput);
-      $("#intro").show();
+      $("#intro").fadeToggle();
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-ruby").fadeToggle();
-      $("#ruby").show();
+      $("#ruby").fadeToggle();
 
     } else {
       alert(" ...You may need to consider your choice in milkshakes before jumping into programming....")
