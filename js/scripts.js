@@ -20,7 +20,7 @@ $(document).ready(function(){
       $("#intro").fadeToggle();
       $(".initially-showing").fadeToggle();
       $("#initially-hidden-rust").fadeToggle();
-      $("#rust").fade.Toggle();
+      $("#rust").fadeToggle();
       $(".email").text(qTwoInput);
 
     } else if ((qFourInput === 'machineLearning') && (qFiveInput === 'strawberry')) {
